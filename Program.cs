@@ -1,6 +1,9 @@
 ﻿using System;
 using Matrices;
 
+/// <summary>
+/// Program class.
+/// </summary>
 class Program
 {
     /// <summary>
