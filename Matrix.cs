@@ -1,9 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
+/// <summary>
+/// namespace of matrices
+/// </summary>
 namespace Matrices
 {
     public class Matrix
@@ -20,9 +19,8 @@ namespace Matrices
         /// <summary>
         /// Matrix.
         /// </summary>
-        private double[,] arr;
-        static int count = 0;
-
+        private readonly double[,] arr;
+   
         /// <summary>
         /// Parameterless constructor.
         /// </summary>
@@ -48,7 +46,6 @@ namespace Matrices
                     arr[i, j] = r.Next(0, 100);
                 }
             }
-            count++;
         }
 
         /// <summary>
